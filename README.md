@@ -1,2 +1,4 @@
 # Thermophotovoltaics
 This repository contains the Python and Excel files for my Thermophotovoltaics research project.
+
+1. The file 'Optimization_and_CO2_emissions.py' contains the code to calculate and optimize the Levelized Cost of Energy (LCOE) and Electricity (LCOE_el) by following the energy management algorithm from the original study (https://doi.org/10.1016/j.apenergy.2019.113935) along with our modifications according to our needs. It imports the Excel file 'TPV.xlsx' that contains the electricity consumption and solar PV generation data for a residential building in Boone, Iowa. The Python file also plots the base-case and optimized LCOE and LCOE_el. It also calculates the CO2Eq. emissions for a building with no energy storage system and base-case and optimized energy storage systems with a TPV unit.
